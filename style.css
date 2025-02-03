@@ -345,3 +345,71 @@ footer button.show {
   color: #fff;
   background: #40207d;
 }
+
+@media screen and (max-width: 765px){
+    header {
+        padding: 30px 40px;
+    }
+
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box {
+        width: 100%;
+        padding: 0 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+.quiz_box header .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.quiz_box header .timer {
+  height: 45px;
+  padding: 0 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+}
+.quiz_box header .timer .time_left_txt {
+  font-weight: 300;
+  font-size: 17px;
+  user-select: none;
+}
+.quiz_box header .timer .timer_sec {
+  font-size: 14px;
+}
+
+section .que_text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+section .option_list .option {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+section .option_list .option .icon {
+  text-align: center;
+  font-size: 10px;
+}
+
+footer {
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+}
+
+footer .total_que span p {
+  font-weight: 400;
+  padding: 0 5px;
+}
